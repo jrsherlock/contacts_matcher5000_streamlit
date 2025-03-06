@@ -1,0 +1,20 @@
+{
+  "input_file": "BP.csv",
+  "target_file": "ideal.csv",
+  "thresholds": {
+    "company_name": 85,
+    "person_name": 85,
+    "email": 100,
+    "title": 70,
+    "department": 70
+  },
+  "column_mapping": {
+    "First Name": "First Name",
+    "Last Name": "Last Name",
+    "URL": "LinkedIn Contact Profile URL",
+    "Email Address": "Email Address",
+    "Company": "Company Name",
+    "Position": "Job Title",
+    "Department": "Job Function"
+  }
+}
